@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: "Lato", sans-serif;
+}
+
+:root{
+
+    --main-color: #13a34f;
+    --text-color: #000000;
+    --other-color: #ffffff;
+    --second-color: #bbd455;
+
+    --bg-color: #2e864d;
+    --h1-font: 5rem;
+    --h2-font: 3.5rem;
+    --p-font: 1rem;
+    --font-family2: "Nanum Brush Script", cursive;
+
+}
+
+body{
+
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header{
+
+    position: fixed;
+    top: 9px;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 4%;
+    background: transparent;
+    z-index: 1000;
+    transition: all .3s ease;
+}
+
+#logo-ym{
+    width: 170px;
+}
+
+.navbar a{
+    display: inline-block;
+    margin: 0 40px;
+    color: var(--other-color);
+    font-size: var(--p-font);
+    border-radius: 30px;
+    transition: all .3s ease;
+    padding: 18px 30px;
+
+}
+
+.inactive{
+    display: inline-block;
+    margin: 0 20px;
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 700;
+    border-radius: 30px;
+    transition: all .3s ease;
+    padding: 18px 30px;
+
+}
+
+.inactive:hover{
+    color: var(--second-color);
+    border-radius: 30px;
+    background:  var(--other-color);
+
+}
+
+.h-btn{
+    display: inline-block;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-size: var(--p-font);
+    border-radius: 30px;
+    transition: all .3s ease;
+    color: var(--second-color);
+    border-radius: 30px;
+    background: #236a3c;
+
+}
+
+.n-active{
+    display: inline-block;
+    font-size: var(--p-font);
+    font-weight: 800;
+    border-radius: 30px;
+    transition: all .3s ease;
+    color: var(--bg-color);
+    border-radius: 30px;
+    background: var(--second-color);
+}
+
+.shp01{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
