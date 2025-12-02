@@ -32,47 +32,36 @@ body{
 header{
 
     position: fixed;
-    top: 9px;
+    top: 0px;
     right: 0;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 4%;
+    padding: 20px 12%;
     background: transparent;
     z-index: 1000;
     transition: all .3s ease;
+    background: #236a3c;
 }
 
 #logo-ym{
-    width: 170px;
+    width: 140px;
 }
 
 .navbar a{
     display: inline-block;
-    margin: 0 40px;
+    margin: 0 4px;
     color: var(--other-color);
     font-size: var(--p-font);
     border-radius: 30px;
     transition: all .3s ease;
-    padding: 18px 30px;
-
+    padding: 12px 20px;
+    font-weight: 500;
 }
 
-.inactive{
-    display: inline-block;
-    margin: 0 20px;
-    color: var(--other-color);
-    font-size: var(--p-font);
-    font-weight: 700;
-    border-radius: 30px;
-    transition: all .3s ease;
-    padding: 18px 30px;
-
-}
-
-.inactive:hover{
-    color: var(--second-color);
+.navbar  a:hover{
+    color: var(--bg-color);
     border-radius: 30px;
     background:  var(--other-color);
 
@@ -87,7 +76,7 @@ header{
     transition: all .3s ease;
     color: var(--second-color);
     border-radius: 30px;
-    background: #236a3c;
+    background: var(--second-color);
 
 }
 
